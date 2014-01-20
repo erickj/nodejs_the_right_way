@@ -4,7 +4,7 @@
  * event, the data buffer is parsed and printed.
  *
  * Usage:
- *     nodejs --harmony <path/to/watcher-spawn-parse.js> <path/to/watch>
+ *     node --harmony <path/to/watcher-spawn-parse.js> <path/to/watch>
  */
 // strict mode allows use of let keyword below
 "use strict";

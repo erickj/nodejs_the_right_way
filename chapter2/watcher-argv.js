@@ -3,7 +3,7 @@
  * console when it changes.
  *
  * Usage:
- *     nodejs --harmony <path/to/watcher-argv.js> <file/to/watch>
+ *     node --harmony <path/to/watcher-argv.js> <file/to/watch>
  */
 const fs = require('fs');
 var filename = process.argv[2];

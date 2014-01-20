@@ -3,7 +3,7 @@
  * changes.
  *
  * Usage:
- *     nodejs --harmony <path/to/watcher.js>
+ *     node --harmony <path/to/watcher.js>
  */
 // const is a harmony builtin for declaring constants
 // http://wiki.ecmascript.org/doku.php?id=harmony:const

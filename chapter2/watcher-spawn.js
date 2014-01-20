@@ -3,7 +3,7 @@
  * changes.
  *
  * Usage:
- *     nodejs --harmony <path/to/watcher-spawn.js> <path/to/watch>
+ *     node --harmony <path/to/watcher-spawn.js> <path/to/watch>
  */
 // strict mode allows use of let keyword below
 "use strict";
