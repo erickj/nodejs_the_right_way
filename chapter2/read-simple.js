@@ -5,7 +5,7 @@
  *     node --harmony <path/to/read-simple.js>
  */
 const fs = require('fs');
-fs.readFile('target.txt', function(err, data) {
+fs.readFile('data/target.txt', function(err, data) {
   if (err) {
     throw err;
   }
