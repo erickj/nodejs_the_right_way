@@ -1,4 +1,4 @@
-# Chapter 2
+# Chapter 2: File System
 
 * Intro
   * monitoring file system events: watcher.js
