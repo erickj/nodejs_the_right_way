@@ -1,3 +1,5 @@
 # Chapter 3: Sockets
 
-* Writing data to a socket: net-watcher.js
+* TCP socket: net-watcher.js
+* Unix sockets: net-watcher-unix.js
+
