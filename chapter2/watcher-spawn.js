@@ -21,6 +21,8 @@ fs.watch(filename, function() {
   // http://wiki.ecmascript.org/doku.php?id=harmony:block_scoped_bindings
   /** @see http://nodejs.org/api/child_process.html#child_process_class_childprocess */
   let ls = spawn('ls', ['-lh', filename]);
+  // The call to {@code #pipe} creates a Stream object.
+  // http://nodejs.org/api/stream.html#stream_readable_pipe_destination_options
   ls.stdout.pipe(process.stdout);
 });
 console.log('Now watching ' + filename);

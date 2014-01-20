@@ -26,6 +26,8 @@ fs.watch(filename, function() {
   // ls is an EventEmitter
   // http://nodejs.org/api/events.html#events_class_events_eventemitter
   ls.stdout.on('data', function(chunk) {
+    // chunk is a buffer object, in NodeJS that's a blob of binary data.
+    // http://nodejs.org/api/buffer.html#buffer_class_buffer
     output += chunk.toString();
   });
 
