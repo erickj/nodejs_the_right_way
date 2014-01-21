@@ -2,4 +2,5 @@
 
 * TCP socket: net-watcher.js
 * Unix sockets: net-watcher-unix.js
+* JSON Protocol: net-wtacher-json-service.js
 
