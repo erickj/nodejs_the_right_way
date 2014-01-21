@@ -7,6 +7,9 @@
  * exactly with data boundaries on \n, and will be encapsulated in a
  * single 'data' callback.
  *
+ * To see flaw in message parsing run against
+ * net-watcher-json-test-service.
+ *
  * Usage:
  *     node --harmony <path/to/net-watcher-json-client.js>
  */
