@@ -2,9 +2,10 @@
  * Client for net-watcher-service. Parses newline delimited JSON data
  * from the server and prints resulsts to STDOUT.
  *
- * The point of this client is that it purposefully exposes a flaw in
- * the message protocol, exposing a flaw in assuming all messages will
- * be encapsulated in a single 'data' callback.
+ * The purpose of the client is that it purposefully exposes a flaw in
+ * the message protocol, assuming all message boundaries line up
+ * exactly with data boundaries on \n, and will be encapsulated in a
+ * single 'data' callback.
  *
  * Usage:
  *     node --harmony <path/to/net-watcher-json-client.js>
