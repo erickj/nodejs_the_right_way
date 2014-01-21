@@ -22,7 +22,7 @@ var server = net.createServer(function(connection) {
     connection.write(JSON.stringify({
       type: 'changed',
       file: filename,
-      timestampe: Date.now()
+      timestamp: Date.now()
     }));
   });
 
